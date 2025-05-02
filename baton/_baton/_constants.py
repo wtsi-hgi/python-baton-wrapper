@@ -41,7 +41,8 @@ BATON_SEARCH_CRITERION_COMPARISON_OPERATOR_PROPERTY = "o"
 BATON_SEARCH_CRITERION_COMPARISON_OPERATORS = {
     ComparisonOperator.EQUALS: "=",
     ComparisonOperator.GREATER_THAN: ">",
-    ComparisonOperator.LESS_THAN: "<"
+    ComparisonOperator.LESS_THAN: "<",
+    ComparisonOperator.CONTAINS: "in"
 }
 
 BATON_SPECIFIC_QUERY_PROPERTY = "specific"
