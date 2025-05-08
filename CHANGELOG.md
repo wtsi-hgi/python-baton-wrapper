@@ -1,5 +1,12 @@
 # Change Log
-## [Unreleased]
+## 1.0.2 - 2025-05-08
+### Changed
+- Testing against baton 0.17.0 for iRODS 4.1.10.
+
+### Added
+- A new ComparisonOperator for "in" queries
+
+## 1.0.1 - 2016-10-21
 ### Changed
 - Replicas and access controls are now optional properties in entities' JSON representation.
 - Ensured decode and encode work with lists of `DataObject` and `Collection`.
