@@ -1,9 +1,13 @@
 # Change Log
 ## [Unreleased]
+### Fixed
+- Broken link in README.md
+
 ### Changed
 - Replicas and access controls are now optional properties in entities' JSON representation.
 - Ensured decode and encode work with lists of `DataObject` and `Collection`.
 - Improved and corrected issues in metadata mappers ([#41](https://github.com/wtsi-hgi/python-baton-wrapper/issues/41), [#44](https://github.com/wtsi-hgi/python-baton-wrapper/issues/44))
+- Cleaned Prerequisites in README.md
 
 ## 1.0.0 - 2016-06-14
 ### Changed

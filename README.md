@@ -4,18 +4,18 @@
 
 
 ## Introduction
-Python 3 Wrapper for [baton](https://github.com/wtsi-npg/baton), superseding a [previous implementation in 
-metadata-check]
-(https://github.com/wtsi-hgi/metadata-check/blob/9cd5c41b0f2e254fc1d6249a14752bd428587bb7/irods_baton/baton_wrapper.py).
+Python 3 Wrapper for [baton](https://github.com/wtsi-npg/baton), superseding a [previous implementation in metadata-check](https://github.com/wtsi-hgi/metadata-check/blob/9cd5c41b0f2e254fc1d6249a14752bd428587bb7/irods_baton/baton_wrapper.py).
 
 The wrapper provides access to most of baton's functionality.
 
 
 ## How to use
 ### Prerequisites
-- Python >= 3.5.2
-- baton >= 0.16.4
-- iRODS >= 4.1.9
+```
+Python >= 3.5.2
+baton >= 0.16.4
+iRODS >= 4.1.9
+```
 
 *Note: Although older version of baton/iRODS will probably work, the library is only aimed at the versions specified
 above.*
